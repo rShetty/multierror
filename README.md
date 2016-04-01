@@ -35,3 +35,7 @@ HasError checks if MultiError has any error.
 func (m *MultiError) Push(errString string)
 ```
 Push adds an error to MultiError.
+
+## License
+-------
+This tool is released under the MIT license. Please refer to LICENSE for more details.
