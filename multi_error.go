@@ -26,9 +26,9 @@ func (m *MultiError) HasError() *MultiError {
 
 // Error implements error interface.
 func (m *MultiError) Error() string {
-	var formattedError []string
-	for _, e := range m.errs {
-		formattedError = append(formattedError, e.Error())
+	formattedError := make([]string, len(m.errs))
+	for i, e := range m.errs {
+		formattedError[i] = e.Error()
 	}
 
 	return strings.Join(formattedError, "\n")
