@@ -1,4 +1,7 @@
 # MultiError
+
+[![Build Status](https://snap-ci.com/rShetty/multierror/branch/master/build_image)](https://snap-ci.com/rShetty/multierror/branch/master)
+
 --
     import "github.com/rShetty/multierror"
 
