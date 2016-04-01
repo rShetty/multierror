@@ -1,4 +1,4 @@
-package: github.com/multierror
+package: github.com/rShetty/multierror
 license: MIT
 import:
 - package: github.com/stretchr/testify

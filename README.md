@@ -1,6 +1,6 @@
 # MultiError
 --
-    import "github.com/multierror"
+    import "github.com/rShetty/multierror"
 
 
 ## Usage
